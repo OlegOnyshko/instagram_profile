@@ -32,7 +32,7 @@ class MainApp extends StatelessWidget {
                 Text("olgckwx", style: TextStyle(fontSize: 16, color: Color(0xFF262626), fontWeight: FontWeight.w600)),
                 SizedBox(width: 3,),
                 Icon(Icons.keyboard_arrow_down),
-                SizedBox(width: 120,),
+                SizedBox(width: 115,),
                 Icon(Icons.menu),
               ],
             ),
@@ -112,17 +112,16 @@ class MainApp extends StatelessWidget {
               children: [
                 ElevatedButton(
                   onPressed: () {},
-                  child: Text("Edit Profile"),
+                  child: Text("Edit Profile", style: TextStyle(color: textColor, fontWeight: FontWeight.w600, fontSize: 13),),
                   style: ElevatedButton.styleFrom(
-                    foregroundColor: Colors.black,
                     backgroundColor: Colors.white,
                     side: BorderSide(
-                        color: const Color.fromARGB(255, 228, 228, 228),
+                        color: Color(0xFF3C3C43),
                         width: 1),
-                    minimumSize: Size(350, 40),
+                    minimumSize: Size(343, 29),
                     shape: RoundedRectangleBorder(
                       borderRadius:
-                          BorderRadius.circular(8), // Adjust the value
+                          BorderRadius.circular(6 ), // Adjust the value
                     ),
                   ),
                 ),
